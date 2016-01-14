@@ -45,3 +45,14 @@ for (var i = 0; i < allListItems.length; i++) {
   console.log(allListItems[i].innerText = i);
 }
 console.log(allListItems);
+
+document.getElementById('main').style.backgroundColor = "goldenrod";
+
+document.getElementsByTagName('li')[0].style.backgroundColor = "red";
+document.getElementsByTagName('li')[1].style.backgroundColor = "orange";
+document.getElementsByTagName('li')[2].style.backgroundColor = "yellow";
+document.getElementsByTagName('li')[3].style.backgroundColor = "green";
+document.getElementsByTagName('li')[4].style.backgroundColor = "blue";
+
+
+
