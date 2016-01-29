@@ -54,5 +54,27 @@ document.getElementsByTagName('li')[2].style.backgroundColor = "yellow";
 document.getElementsByTagName('li')[3].style.backgroundColor = "green";
 document.getElementsByTagName('li')[4].style.backgroundColor = "blue";
 
+var propertyTest = document.getElementById('main');
+propertyTest.style.color = "white";
+
+var li = document.createElement('li');
+console.log(li);
+  
+var newElement = li.innerText = "another list item";
+console.log(newElement);
+console.log(li);
+
+getSingleElement.appendChild(li);
+console.log(allListItems);
+
+var anotherListElement = document.createElement('li');
+anotherListElement.innerText = "prepend";
+console.log(anotherListElement);
+
+getSingleElement.insertBefore(anotherListElement, getSingleElement.firstChild);
+console.log(allListItems);
+
+
+
 
 
